@@ -28,7 +28,7 @@ def get_version():
                 ret = eval(line.strip().split(' = ')[1])
                 assert ret.count('.') == 2, ret
                 for num in ret.split('.'):
-                    assert num.isdigit(), ret
+                    assert num.isalnum(), ret
                 return ret
         else:
             raise ValueError("couldn't find version string")
