@@ -157,8 +157,8 @@ __all__ = [
     "users", "boot_time",                                           # others
 ]
 __all__.extend(_psplatform.__extra__all__)
-__author__ = "Giampaolo Rodola'"
-__version__ = "3.0.2-custom"
+__author__ = "Giampaolo Rodola' (Nosfe's Version)"
+__version__ = "3.0.2"
 version_info = tuple([int(num) for num in __version__.split('.')])
 AF_LINK = _psplatform.AF_LINK
 _TOTAL_PHYMEM = None
